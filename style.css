@@ -146,15 +146,26 @@ nav{
 		color: white;
 		border-radius: 8px;
 	}
-	.portfolio-item{
+.portfolio-item{
 		width: 100%;
+		
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		margin-left: 65px;
+
 	}
-	.portfolio-item .item{
+.portfolio-item .item{
 		width:360px ;
 		height:360px;
-		float: left;
-		margin-bottom:20px;
-		margin-right: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+
+
+		
+	
+
+
 	}
 .portfolio-item .item img{
 	width: 100%;
